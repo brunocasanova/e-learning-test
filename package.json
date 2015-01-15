@@ -1,0 +1,33 @@
+{
+  "name": "brunocasanova-e-learning-test",
+  "version": "0.0.1",
+  "description": "e-learning-test",
+  "main": "index.js",
+  "scripts": {
+    "test": "node_modules/mocha/bin/mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/brunocasanova/e-learning-test.git"
+  },
+  "keywords": [
+    "e-learning",
+    "findhit",
+    "test",
+    "brunocasanova"
+  ],
+  "author": "Bruno Casanova <bruno@findhit.com>",
+  "license": "GPL v3",
+  "bugs": {
+    "url": "https://github.com/brunocasanova/e-learning-test/issues"
+  },
+  "homepage": "https://github.com/brunocasanova/e-learning-test",
+  "devDependencies": {
+    "chai": "^1.10.0",
+    "mocha": "^2.1.0",
+    "sinon": "^1.12.2"
+  },
+  "dependencies": {
+    "findhit-util": "^0.2.5"
+  }
+}
